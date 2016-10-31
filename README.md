@@ -22,7 +22,7 @@ access_secret <- ""
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 getdata<-function(hashtag){
-twitterdata<-searchTwitter(hashtag,n=1.7e3,lang="en",since='2016-01-01') #size depending on API limit
+twitterdata<-searchTwitter(hashtag,n=1.7e3,lang="en",since='2016-10-21 08:15:15 UTC') #size depending on API limit
 file_dir<-paste("/.../data/twitter_",hashtag,".RDS",sep="")
 saveRDS(twitterdata, file_dir)
 }
