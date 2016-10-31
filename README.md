@@ -6,7 +6,7 @@
  This repo contains 
  
 - Two exploratory graphs with the purpose of illustrating targeting social-media influencers.
-- The dataset used for this analysis. 
+ 
 
 
 ## Obtaining the dataset
