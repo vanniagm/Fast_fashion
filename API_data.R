@@ -2,10 +2,10 @@
 
 # Getting data (from Twitter)
 library('twitteR')
-consumer_key <- "uJlNw80NCXxD1t0OCrFtFLoQD"
-consumer_secret <- "L2Wdot5KY1fLPaGwfxqwXF7sqf1AYnfg2BDb4wJzYkeErAd9sF"
-access_token <- "195374123-NFpfkHWOYTDNqCmGLQuNxD4PgVAfHqlKiRwFAca5"
-access_secret <- "iXY4ZA7JQRHFOu9cu9J6ZsQUSpUhIK0dPuytTRaHZFAOg"
+consumer_key <- "XXXXXX"
+consumer_secret <- "XXXXXXX"
+access_token <- "XXXXXXXX"
+access_secret <- "XXXXXXXX"
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
